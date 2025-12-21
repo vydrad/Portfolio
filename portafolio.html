@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="assets/css/styles.css">
     <link rel="stylesheet" href="assets/css/responsive.css">
     <script src="assets/js/menu.js" defer></script>
+    <script src="assets/js/portfolio-filter.js" defer></script>
 
     <title>Portfolio DTV</title>
 </head>
@@ -124,18 +125,28 @@
 
                 <nav class="portfolio__nav">
                     <ul class="portfolio__list">
-                        <li class="portfolio__option portfolio__option--active"> <a href="#" class="portfolio__link">Todo</a></li>
-                        <li class="portfolio__option "> <a href="#" class="portfolio__link">Proyectos C++</a></li>
-                        <li class="portfolio__option "> <a href="#" class="portfolio__link">Proyectos C#</a></li>
-                        <li class="portfolio__option "> <a href="#" class="portfolio__link">Proyectos Java</a></li>
-                        <li class="portfolio__option "> <a href="#" class="portfolio__link">Proyectos con SQL</a></li>
+                        <li class="portfolio__option portfolio__option--active" data-filter="todo">
+                         <a href="#" class="portfolio__link">Todo</a>
+                        </li>
+                        <li class="portfolio__option" data-filter="c++">
+                         <a href="#" class="portfolio__link">Proyectos C++</a>
+                        </li>
+                        <li class="portfolio__option" data-filter="c#">
+                         <a href="#" class="portfolio__link">Proyectos C#</a>
+                        </li>
+                        <li class="portfolio__option" data-filter="java">
+                         <a href="#" class="portfolio__link">Proyectos Java</a>
+                        </li>
+                        <li class="portfolio__option" data-filter="sql">
+                         <a href="#" class="portfolio__link">Proyectos con SQL</a>
+                        </li>
                     </ul>
                 </nav>
 
                 <section class="portfolio__gallery">
-                    <figure class="gallery__item">
+                    <figure class="gallery__item" data-category="c++">
                         <div class="gallery__container-image">
-                            <a href="#" class="gallery__link">
+                            <a href="https://github.com/vydrad/Generala_y_Gestor_de_Archivos-rlutil_p-Interfaz_grafica" class="gallery__link" target="_blank">
                                 <img src="assets/img/Generala.png" alt="Proyecto 1" class="gallery__image">
                             </a>
                         </div>
@@ -146,9 +157,9 @@
                             
                     </figure>
 
-                     <figure class="gallery__item">
+                     <figure class="gallery__item" data-category="c++">
                         <div class="gallery__container-image">
-                            <a href="#" class="gallery__link">
+                            <a href="https://github.com/vydrad/Generala_y_Gestor_de_Archivos-rlutil_p-Interfaz_grafica" class="gallery__link" target="_blank">
                                 <img src="assets/img/Gestor-Cine.png" alt="Proyecto 2" class="gallery__image">
                             </a>
                         </div>
@@ -159,22 +170,22 @@
                             
                     </figure>
 
-                     <figure class="gallery__item">
+                     <figure class="gallery__item" data-category="c#,sql">
                         <div class="gallery__container-image">
-                            <a href="#" class="gallery__link">
+                            <a href="https://github.com/vydrad/Gestor_de_Negocio_Electronica" class="gallery__link" target="_blank">
                                 <img src="assets/img/Gestor-Eletronica.png" alt="Proyecto 3" class="gallery__image">
                             </a>
                         </div>
 
                         <figcaption class="gallery__tittle"> Gestor de Negocio de Electrónica</figcaption>
                         <i class="gallery__icon fa-solid fa-plug"></i>
-                        <span class="gallery__category">C# </span>
+                        <span class="gallery__category">C# - SQL</span>
                             
                     </figure>
 
-                     <figure class="gallery__item">
+                     <figure class="gallery__item" data-category="java,sql">
                         <div class="gallery__container-image">
-                            <a href="#" class="gallery__link">
+                            <a href="https://github.com/vydrad/Gestor_de_Banco" class="gallery__link" target="_blank">
                                 <img src="assets/img/Gestor-Banco.png" alt="Proyecto 4" class="gallery__image">
                             </a>
 
@@ -183,7 +194,7 @@
 
                         <figcaption class="gallery__tittle"> Gestor de Banco</figcaption>
                         <i class="gallery__icon fa-solid fa-credit-card"></i>
-                        <span class="gallery__category">Java</span>
+                        <span class="gallery__category">Java - SQL</span>
                             
                     </figure>
 

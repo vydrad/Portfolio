@@ -1048,3 +1048,13 @@ opacity:1;
   display: block;
   margin-left: 9px;
 }
+
+
+
+.portfolio__option--active{
+    display: block;
+}
+
+.portfolio__option--inactive{
+    display: none;
+}
