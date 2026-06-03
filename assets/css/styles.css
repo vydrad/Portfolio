@@ -702,16 +702,16 @@ opacity:1;
     
 }
 
-.skills__percentage--p1{  width: 80%;}
+.skills__percentage--p1{  width: 90%;}
 .skills__percentage--p2{  width: 70%;}
-.skills__percentage--p3{  width: 80%;}
-.skills__percentage--p4{  width: 80%;}
-.skills__percentage--p5{  width: 80%;}
-.skills__percentage--p6{  width: 50%;}
+.skills__percentage--p3{  width: 90%;}
+.skills__percentage--p4{  width: 90%;}
+.skills__percentage--p5{  width: 50%;}
+.skills__percentage--p6{  width: 60%;}
 .skills__percentage--p7{  width: 70%;}
 .skills__percentage--p8{  width: 60%;}
 .skills__percentage--p9{  width: 100%;}
-.skills__percentage--p10{  width: 80%;}
+.skills__percentage--p10{  width: 75%;}
 
 .knowledges__list{
     display: flex;
